@@ -37,7 +37,7 @@ public class AssertThrowsDemo {
 		bookService.addBook(headFirstJavaBook);
 		bookService.addBook(headFirstDesignPatternBook);
 		
-		assertThrows(NullPointerException.class, 
+		assertThrows(BookNotFoundException.class,
 				() -> bookService.getBookByTitle("Head First Spring"),
 				"Different exception thrown!");
 		
@@ -53,7 +53,7 @@ public class AssertThrowsDemo {
 		bookService.addBook(headFirstJavaBook);
 		bookService.addBook(headFirstDesignPatternBook);
 		
-		assertThrows(NullPointerException.class, 
+		assertThrows(BookNotFoundException.class,
 				() -> bookService.getBookByTitle("Head First Spring"),
 				() -> "Different exception thrown!");
 		
