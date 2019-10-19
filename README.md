@@ -7,7 +7,7 @@ https://www.udemy.com/course/java-unit-testing-with-junit-5/?referralCode=14BA45
 
 # Maven Dependencies for JUnit 5
 
-<properties>
+	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>${maven.compiler.source}</maven.compiler.target>
